@@ -61,5 +61,54 @@ const BOOKS = [
   
   I think it’s best read slowly, with reflection, not rushed for answers.`
     }
+
+   ,{
+        id: "the-autobiography-of-malcolm-x",
+        title: "The Autobiography of Malcolm X",
+        author: "Malcolm X (as told to Alex Haley)",
+        genre: "Biography / History",
+        rating: 5,
+      
+        // Used on the Books page (books.html)
+        status: "Finished",
+        dateFinished: "2025-03-01",
+        short: "A powerful life story about change, identity, and speaking with purpose.",
+      
+        // Used on the Review page (review.html)
+        summary: `This book tells the life story of Malcolm X, from his early childhood and struggles,
+      to his time caught up in crime, and then the turning point where he begins to change.
+      
+      A big part of the story is about identity. He explains how he became “Malcolm X”,
+      why he rejected the name he was given, and how he started questioning the world around him.
+      You also see his growth as a public speaker and leader, and how his thinking evolves over time.
+      
+      The book covers major themes like racism in America, education through self-learning,
+      discipline, and the idea that a person can completely transform their life.
+      It doesn’t hide the uncomfortable parts — it shows the mistakes, the lessons,
+      and the mindset shifts that made him who he became.`,
+      
+        reflection: `What I respected most is how honest the book is about change.
+      It’s not written like someone was perfect from day one — it shows a real transformation.
+      
+      The biggest lesson for me is that your past doesn’t have to define you.
+      He rebuilt himself through discipline, reading, and taking his own growth seriously.
+      That part hit me because it proves that learning isn’t only “school” — it’s what you do
+      when nobody is forcing you.
+      
+      I also took away how important it is to think for yourself.
+      His views changed over time, and he didn’t pretend he was the same person forever.
+      That taught me that growth includes updating your mindset when you learn more.
+      
+      How I’m applying it:
+      I want to be more intentional about what I feed my mind.
+      Less scrolling, more reading and learning with purpose.
+      I also want to build stronger self-discipline in my routines,
+      because consistency changes your identity over time.
+      
+      I think this book should be applied with reflection, not just emotion.
+      It’s not only about history — it’s about what happens when someone decides to take control
+      of their life, their thinking, and their direction.`
+      }
+      
   ];
   
