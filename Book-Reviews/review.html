@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title id="reviewTitle">Review</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand">Omar’s Book Reviews</div>
+      <div>
+        <a href="index.html">Home</a>
+        <a class="active" href="books.html">Books</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <span class="badge">Full review</span>
+      <h1 id="reviewTitle">Review</h1>
+      <p>My notes and thoughts.</p>
+    </section>
+
+    <div id="reviewBox"></div>
+
+    <div class="footer">
+      Built by Omar • Free hosting on GitHub Pages
+    </div>
+  </div>
+
+  <script src="books.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+  
+    const reviewBox = document.getElementById("reviewBox");
+    const titleEl = document.getElementById("reviewTitle");
+  
+    if (!id) {
+      reviewBox.innerHTML = "<p>No book selected.</p>";
+    } else {
+      const book = BOOKS.find(b => b.id === id);
+  
+      if (!book) {
+        reviewBox.innerHTML = "<p>Book not found.</p>";
+      } else {
+        titleEl.textContent = book.title;
+  
+        reviewBox.innerHTML = `
+          <div class="card">
+            <h2>${book.title}</h2>
+            <p class="small">${book.author} • ${book.genre} • ${book.rating}/5</p>
+  
+            <hr style="margin:16px 0" />
+  
+            <h3>Summary</h3>
+            <p>${book.summary}</p>
+  
+            <h3 style="margin-top:16px">What I learned & how I’ll apply it</h3>
+            <p>${book.reflection}</p>
+  
+            <a class="btn" href="books.html" style="margin-top:16px; display:inline-block">
+              ← Back to books
+            </a>
+          </div>
+        `;
+      }
+    }
+  </script>  
+</body>
+</html>
