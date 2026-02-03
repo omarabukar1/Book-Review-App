@@ -84,15 +84,15 @@ const BOOKS = [
       
       The book covers major themes like racism in America, education through self-learning,
       discipline, and the idea that a person can completely transform their life.
-      It doesn’t hide the uncomfortable parts — it shows the mistakes, the lessons,
+      It doesn’t hide the uncomfortable parts -it shows the mistakes, the lessons,
       and the mindset shifts that made him who he became.`,
       
         reflection: `What I respected most is how honest the book is about change.
-      It’s not written like someone was perfect from day one — it shows a real transformation.
+      It’s not written like someone was perfect from day one - it shows a real transformation.
       
       The biggest lesson for me is that your past doesn’t have to define you.
       He rebuilt himself through discipline, reading, and taking his own growth seriously.
-      That part hit me because it proves that learning isn’t only “school” — it’s what you do
+      That part hit me because it proves that learning isn’t only “school”- it’s what you do
       when nobody is forcing you.
       
       I also took away how important it is to think for yourself.
@@ -106,7 +106,7 @@ const BOOKS = [
       because consistency changes your identity over time.
       
       I think this book should be applied with reflection, not just emotion.
-      It’s not only about history — it’s about what happens when someone decides to take control
+      It’s not only about history - it’s about what happens when someone decides to take control
       of their life, their thinking, and their direction.`
       }
       
